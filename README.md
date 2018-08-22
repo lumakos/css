@@ -1,21 +1,21 @@
 # css
 
-<b>Using REM in LESS</b>
+<b>Using REM in LESS</b><br/>
 
-@defaultBrowserFontSize: 13;
+@defaultBrowserFontSize: 13;<br/><br/>
 
-// These are the root font sizes.
-// These help us calculate font sizes in rems
-@rootFontSize: (@defaultBrowserFontSize / 16) * 1rem;
+// These are the root font sizes.<br/>
+// These help us calculate font sizes in rems<br/>
+@rootFontSize: (@defaultBrowserFontSize / 16) * 1rem;<br/><br/>
 
-// Paddings & margins
-@spacing: (@rootFontSize * 10) / @defaultBrowserFontSize;
-@spacing-xs: @spacing*0.5;
-@spacing-sm: @spacing;
-@spacing-md: @spacing-xs*3;
-@spacing-lg: @spacing-xs*4;
-@spacing-xl: @spacing-xs*6;
+// Paddings & margins<br/>
+@spacing: (@rootFontSize * 10) / @defaultBrowserFontSize;<br/>
+@spacing-xs: @spacing*0.5;<br/>
+@spacing-sm: @spacing;<br/>
+@spacing-md: @spacing-xs*3;<br/>
+@spacing-lg: @spacing-xs*4;<br/>
+@spacing-xl: @spacing-xs*6;<br/><br/>
 
-<b>Using variables in LESS</b>
-@userProtectionImage: '/img/shield-large.png';
+<b>Using variables in LESS</b><br/>
+@userProtectionImage: '/img/shield-large.png';<br/>
 
